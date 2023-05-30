@@ -6,7 +6,7 @@ from Rentrox.config import Config, LOGGER
 
 from Rentrox.user import User
 
-class Rentrox(Client):
+class Bot(Client):
 
     USER: User = None
 
