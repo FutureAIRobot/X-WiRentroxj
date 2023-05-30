@@ -1,4 +1,4 @@
-from Rentrox.bot import Rentrox 
+from Rentrox.bot import Bot 
 
-app = Rentrox()
+app = Bot()
 app.run()
