@@ -22,7 +22,7 @@ class Bot(Client):
 
             api_id=Config.API_ID,
 
-            plugins={"root": "plugins"},
+            plugins={"root": "Rentrox/plugins"},
 
             workers=200,
 
