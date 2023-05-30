@@ -1,7 +1,7 @@
 import re, pyrogram
 from pyrogram import filters, enums, Client
 from config import Config
-from bot import Bot
+from Rentrox.bot import Rentrox 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
 
 import logging
