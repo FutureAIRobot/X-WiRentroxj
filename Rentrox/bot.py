@@ -1,7 +1,7 @@
 # 0AIB | 
-from pyrogram import Client, __version__
+from pyrogram import Client, __version__, enums
 
-from pyrogram.types import ParseMode
+# from pyrogram.types import ParseMode
 
 from Rentrox.config import Config, LOGGER
 
@@ -39,7 +39,7 @@ class Bot(Client):
 
         bot_details = await self.get_me()
 
-        self.set_parse_mode(ParseMode.HTML)
+        self.set_parse_mode(enums.ParseMode.HTML)
 
         self.LOGGER(__name__).info(
 
