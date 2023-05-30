@@ -4,7 +4,7 @@ from Rentrox import Config, LOGGER
 
 from Rentrox.user import User
 
-class Bot(Client):
+class Rentrox(Client):
 
     USER: User = None
 
@@ -14,7 +14,7 @@ class Bot(Client):
 
         super().__init__(
 
-            "filebot",
+            "rentrox",
 
             api_hash=Config.API_HASH,
 
